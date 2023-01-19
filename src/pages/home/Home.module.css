@@ -1,0 +1,85 @@
+.cont{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+    border: solid #b9b9b9;
+    border-width: 0 1px;
+}
+.side_menu form{
+    padding: 15px 10px 10px;
+    background-color: royalblue;
+    border-radius: 10px;
+}
+.side_menu fieldset{
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.side_menu legend{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px auto;
+    color: #fff;
+    text-align: center;
+}
+.side_menu input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+}
+.side_menu label{
+    display: block;
+    margin: 20px auto 10px;
+    color: royalblue;
+}
+.side_menu textarea{
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #c4c4c4;
+    resize: none;
+}
+.side_menu button{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: royalblue;
+    border: 1px solid royalblue;
+    cursor: pointer;
+    color: #fff;
+}
+.content_list{
+    margin: 0;
+}
+.content_list li{
+    border: 1px solid #f2f2f2;
+    box-shadow: 3px 3px 5px rgba(50,50,50,.1);
+    padding: 30px;
+    position: relative;
+    border-left: 4px solid royalblue;
+}
+.content_list li+li{
+    margin: 30px 0;
+}
+.content_list .title{
+    font-size: 1rem;
+}
+.content_list .text{
+    font-size: .8rem;
+}
+.content_list button{
+    position: absolute;
+    top: 0; right: 0;
+    background-color: royalblue;
+    border: none;
+    color: #fff;
+    font-size: .8rem;
+    padding: 8px;
+    cursor: pointer;
+}
